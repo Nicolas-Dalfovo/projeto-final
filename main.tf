@@ -18,7 +18,8 @@ resource "aws_instance" "app_server" {
   ami           = "ami-0cf2b4e024cdb6960"
   instance_type = "t2.micro"
   key_name = "projeto-final"
+
   tags = {
-    Name = "Primeira instância"
+    Name = "Teste AWS"
   }
 }
